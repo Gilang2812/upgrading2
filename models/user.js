@@ -26,7 +26,7 @@ const User = db.define(
         },
         name: {
             type: Sequelize.STRING,
-            allowNull: false
+            allowNull: true
         },
         image: {
             type: Sequelize.STRING,
